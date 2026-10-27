@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PortalClient (PortalCore) - Visual Analyzer Desktop Application
 
 A production-grade Windows desktop application built with Python, CustomTkinter, and OpenCV, designed for real-time visual screen capture, multi-provider AI vision analysis (Google Gemini, OpenAI, OpenRouter), local Flask-based authentication and device hardware (HWID) licensing.
@@ -164,3 +165,7 @@ The compiled standalone executable will be located at:
 8. **PyInstaller Spec**: Configured full `hiddenimports` in `main.spec` and bundled all CustomTkinter themes/fonts/icons via `collect_data_files('customtkinter')`.
 9. **Consistent Database Initialization**: Synchronized schema and administrator seeding between `server/app.py` and `server/db.py`.
 10. **Cached Credentials Translation**: Fixed Windows text-mode newline corruption in `network/auth_client.py` by enforcing `newline=""` on raw encrypted byte streams.
+=======
+# Chaitanya
+demo for the introduction practice
+>>>>>>> f40bed31c78f07380e560fad5e1b01f98ac6d78d
