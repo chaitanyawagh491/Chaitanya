@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dependencies and generated files
+node_modules/
+.wrangler/
+backup_pristine/
+build/
+dist/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

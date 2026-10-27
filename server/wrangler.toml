@@ -1,0 +1,8 @@
+name = "portal-auth-service"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "portal-db"
+database_id = "49b5dcea-71bb-4f10-be5b-9df2393e8072"

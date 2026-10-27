@@ -1,0 +1,9 @@
+{
+  "name": "visual-analyzer-auth",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers Auth & Update Server for Visual Analyzer",
+  "main": "worker.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}
